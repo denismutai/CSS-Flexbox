@@ -9,6 +9,10 @@
     display: flex;
     gap:25px;
     flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* align-content: flex-start;
+    align-items: flex-end; */
 }
 
 .box_1,
@@ -22,4 +26,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.box_1{
+    align-self: flex-start;
+}
+
+.box_2{
+    align-self: flex-end;
+}
+
+.box_3{
+    align-self: center;
 }
